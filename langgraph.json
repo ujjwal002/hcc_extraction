@@ -7,6 +7,12 @@
       "src.core",
       "src.utils"
     ],
+    "test_inputs": {
+    "default": {
+      "note_text": "Assessment/Plan:\n1. Diabetes (E11.9)\n2. Hypertension (I10)",
+      "hcc_codes": ["E119", "I10"]
+    }
+  },
     "host": "0.0.0.0",
     "port": 7860,
     "verbose": true

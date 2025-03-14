@@ -28,12 +28,11 @@ def extract_conditions(text: str) -> List[Dict]:
         response = model.generate_content(prompt)
         json_str = response.text.strip().replace('```json', '').replace('```', '')
         
-        # Validate and parse response
         conditions = []
         for item in json.loads(json_str):
             if 'condition' in item and 'code' in item:
                 code = str(item['code']).upper().replace('.', '').strip()
-                if code:  # Skip empty codes
+                if code:  
                     conditions.append({
                         'condition': str(item['condition']).strip(),
                         'code': code
