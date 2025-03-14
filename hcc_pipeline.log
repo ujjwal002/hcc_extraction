@@ -1,0 +1,56 @@
+2025-03-14 22:07:37,026 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:37,050 - root - INFO - Processed pn_7 successfully
+2025-03-14 22:07:37,409 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:37,430 - root - INFO - Processed pn_9 successfully
+2025-03-14 22:07:38,718 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:38,741 - root - INFO - Processed pn_8 successfully
+2025-03-14 22:07:39,103 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:39,120 - root - INFO - Processed pn_6 successfully
+2025-03-14 22:07:40,395 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:40,416 - root - INFO - Processed pn_1 successfully
+2025-03-14 22:07:40,791 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:40,814 - root - INFO - Processed pn_4 successfully
+2025-03-14 22:07:42,071 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:42,088 - root - INFO - Processed pn_3 successfully
+2025-03-14 22:07:42,488 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:42,508 - root - INFO - Processed pn_2 successfully
+2025-03-14 22:07:43,820 - hcc_pipeline.core.extraction - ERROR - Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-14 22:07:43,843 - root - INFO - Processed pn_5 successfully
+2025-03-14 22:10:07,930 - root - INFO - Processed pn_7 successfully
+2025-03-14 22:10:08,821 - hcc_pipeline.core.extraction - ERROR - Extraction error: 'NoneType' object has no attribute 'upper'
+2025-03-14 22:10:08,843 - root - INFO - Processed pn_9 successfully
+2025-03-14 22:10:10,464 - hcc_pipeline.core.extraction - ERROR - Extraction error: 'NoneType' object has no attribute 'upper'
+2025-03-14 22:10:10,487 - root - INFO - Processed pn_8 successfully
+2025-03-14 22:10:11,567 - root - INFO - Processed pn_6 successfully
+2025-03-14 22:10:13,415 - root - INFO - Processed pn_1 successfully
+2025-03-14 22:10:15,187 - root - INFO - Processed pn_4 successfully
+2025-03-14 22:10:16,810 - root - INFO - Processed pn_3 successfully
+2025-03-14 22:10:18,474 - root - INFO - Processed pn_2 successfully
+2025-03-14 22:10:20,063 - root - INFO - Processed pn_5 successfully
+2025-03-14 22:13:00,243 - root - INFO - Processed pn_7 successfully
+2025-03-14 22:13:01,080 - root - INFO - Processed pn_9 successfully
+2025-03-14 22:13:02,468 - root - INFO - Processed pn_8 successfully
+2025-03-14 22:13:03,472 - root - INFO - Processed pn_6 successfully
+2025-03-14 22:13:05,323 - root - INFO - Processed pn_1 successfully
+2025-03-14 22:13:07,066 - root - INFO - Processed pn_4 successfully
+2025-03-14 22:13:08,839 - root - INFO - Processed pn_3 successfully
+2025-03-14 22:13:10,476 - root - INFO - Processed pn_2 successfully
+2025-03-14 22:13:12,140 - root - INFO - Processed pn_5 successfully
+2025-03-14 22:13:28,927 - root - INFO - Processed pn_7 successfully
+2025-03-14 22:13:29,752 - root - INFO - Processed pn_9 successfully
+2025-03-14 22:13:31,286 - root - INFO - Processed pn_8 successfully
+2025-03-14 22:13:32,343 - root - INFO - Processed pn_6 successfully
+2025-03-14 22:13:34,022 - root - INFO - Processed pn_1 successfully
+2025-03-14 22:13:35,644 - root - INFO - Processed pn_4 successfully
+2025-03-14 22:13:37,147 - root - INFO - Processed pn_3 successfully
+2025-03-14 22:13:38,764 - root - INFO - Processed pn_2 successfully
+2025-03-14 22:13:40,301 - root - INFO - Processed pn_5 successfully
+2025-03-14 23:13:46,948 - root - INFO - Processed pn_7 successfully
+2025-03-14 23:13:47,762 - root - INFO - Processed pn_9 successfully
+2025-03-14 23:13:49,421 - root - INFO - Processed pn_8 successfully
+2025-03-14 23:13:50,536 - root - INFO - Processed pn_6 successfully
+2025-03-14 23:13:52,079 - root - INFO - Processed pn_1 successfully
+2025-03-14 23:13:53,774 - root - INFO - Processed pn_4 successfully
+2025-03-14 23:13:55,360 - root - INFO - Processed pn_3 successfully
+2025-03-14 23:13:56,982 - root - INFO - Processed pn_2 successfully
+2025-03-14 23:13:58,697 - root - INFO - Processed pn_5 successfully

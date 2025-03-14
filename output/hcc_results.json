@@ -1,0 +1,366 @@
+{
+  "pn_7": {
+    "extracted_conditions": [
+      {
+        "condition": "Substance use disorder moderate",
+        "code": "F1920"
+      },
+      {
+        "condition": "HLD",
+        "code": "E785"
+      },
+      {
+        "condition": "GERD",
+        "code": "K219"
+      },
+      {
+        "condition": "CAD",
+        "code": "I2510"
+      },
+      {
+        "condition": "IBD",
+        "code": "K5190"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Substance use disorder moderate",
+        "code": "F1920"
+      },
+      {
+        "condition": "IBD",
+        "code": "K5190"
+      }
+    ]
+  },
+  "pn_9": {
+    "extracted_conditions": [
+      {
+        "condition": "Fibromyalgia",
+        "code": "M797"
+      },
+      {
+        "condition": "Hypertension",
+        "code": "NONE"
+      }
+    ],
+    "hcc_relevant": []
+  },
+  "pn_8": {
+    "extracted_conditions": [
+      {
+        "condition": "Type 1 diabetes mellitus without complications",
+        "code": "E109"
+      },
+      {
+        "condition": "Migraine, unspecified, not intractable, without status migrainosus",
+        "code": "G43909"
+      },
+      {
+        "condition": "Obstructive sleep apnea (adult)",
+        "code": "G4733"
+      },
+      {
+        "condition": "Hypertension",
+        "code": "NONE"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 1 diabetes mellitus without complications",
+        "code": "E109"
+      }
+    ]
+  },
+  "pn_6": {
+    "extracted_conditions": [
+      {
+        "condition": "Diabetes",
+        "code": "E11"
+      },
+      {
+        "condition": "Hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J44"
+      },
+      {
+        "condition": "Major depressive disorder",
+        "code": "F32"
+      }
+    ],
+    "hcc_relevant": []
+  },
+  "pn_1": {
+    "extracted_conditions": [
+      {
+        "condition": "Gastroesophageal reflux disease",
+        "code": "K219"
+      },
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Essential hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ]
+  },
+  "pn_4": {
+    "extracted_conditions": [
+      {
+        "condition": "Gastroesophageal reflux disease without esophagitis",
+        "code": "K219"
+      },
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "code": "J449"
+      },
+      {
+        "condition": "Essential (primary) hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic systolic (congestive) heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid (severe) obesity due to excess calories",
+        "code": "E6601"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "code": "J449"
+      },
+      {
+        "condition": "Chronic systolic (congestive) heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid (severe) obesity due to excess calories",
+        "code": "E6601"
+      }
+    ]
+  },
+  "pn_3": {
+    "extracted_conditions": [
+      {
+        "condition": "Gastroesophageal reflux disease",
+        "code": "K219"
+      },
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Essential hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ]
+  },
+  "pn_2": {
+    "extracted_conditions": [
+      {
+        "condition": "Gastroesophageal reflux disease",
+        "code": "K219"
+      },
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Essential hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease",
+        "code": "J449"
+      },
+      {
+        "condition": "Chronic systolic heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid obesity",
+        "code": "E6601"
+      }
+    ]
+  },
+  "pn_5": {
+    "extracted_conditions": [
+      {
+        "condition": "Gastroesophageal reflux disease without esophagitis",
+        "code": "K219"
+      },
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "code": "J449"
+      },
+      {
+        "condition": "Essential (primary) hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "Chronic systolic (congestive) heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid (severe) obesity due to excess calories",
+        "code": "E6601"
+      }
+    ],
+    "hcc_relevant": [
+      {
+        "condition": "Type 2 diabetes mellitus with hyperglycemia",
+        "code": "E1165"
+      },
+      {
+        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "code": "J449"
+      },
+      {
+        "condition": "Chronic systolic (congestive) heart failure",
+        "code": "I5022"
+      },
+      {
+        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "code": "N184"
+      },
+      {
+        "condition": "Morbid (severe) obesity due to excess calories",
+        "code": "E6601"
+      }
+    ]
+  }
+}
