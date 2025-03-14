@@ -24,17 +24,18 @@ The **HCC Documentation Automation Pipeline** automates the extraction and valid
 
 ### Installation and Local Development
 
-1. **Install Poetry**:
-   ```bash
-   pip install poetry
-   ```
+# Install Poetry if not already installed
+pip install poetry
+
+# Install project dependencies
+poetry install
 
 2. **Run the API server** (with auto-reload for development):
    ```bash
    poetry run uvicorn hcc_pipeline.api.app:app --reload
    ```
 
-3. **Run the main pipeline**:
+3. **Run the main pipeline**: **run this to see in local**
    ```bash
    poetry run python -m hcc_pipeline.main
    ```
