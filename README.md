@@ -30,11 +30,13 @@ The **HCC Documentation Automation Pipeline** automates the extraction and valid
 
 ### Quick Start
 ```bash
-# Build the image
-docker build -t hcc-pipeline .
+1. Build the Docker image:
+   ```bash
+   docker build -t hcc-pipeline .
+
 
 # Run the container with volume mounts with env file
-docker run -it --rm \
+2. docker run -it --rm \
   --env-file .docker.env \
   -v $(pwd)/data:/app/data \
   -v $(pwd)/output:/app/output \
@@ -68,6 +70,22 @@ poetry install --with dev
    ```bash
    poetry run langgraph dev --config langgraph.json
    ```
+
+5. **Build the Docker image**:
+   ```bash
+   docker build -t hcc-pipeline .
+   ```
+
+
+6. **Run the container with volume mounts with env file**
+  ```bash
+  docker run -it --rm \
+  --env-file .docker.env \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/output:/app/output \
+  hcc-pipeline
+  ```
+
 
 ---
 
