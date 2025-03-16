@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 client = Client(
     api_key=os.getenv("LANGSMITH_API_KEY"),
-    project_name=os.getenv("LANGSMITH_PROJECT", "hcc-pipeline")
+    # project_name=os.getenv("LANGSMITH_PROJECT", "hcc-pipeline")
 )
 
 def initialize_components(config: Dict[str, Any]):
