@@ -1248,3 +1248,420 @@ conditions.3.code
 2025-03-16 16:01:11,236 - root - INFO - STATE_TRACKER:Pipeline completed successfully
 2025-03-16 16:01:11,371 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
 2025-03-16 16:01:11,372 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:46:25,779 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:46:25,782 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:46:25,799 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:46:25,804 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:25,804 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:26,288 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:46:28,595 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:28,596 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:28,597 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:46:28,598 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:28,600 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:29,379 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:29,381 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:29,381 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:46:29,383 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:29,384 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:30,900 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:30,901 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:30,902 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:46:30,904 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:30,905 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:31,946 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:31,948 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:31,948 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:46:31,950 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:31,951 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:33,835 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:33,836 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:33,837 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:46:33,839 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:33,840 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:35,578 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:35,580 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:35,580 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:46:35,581 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:35,582 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:37,329 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:37,329 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:37,330 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:46:37,331 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:37,332 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:39,014 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:39,015 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:39,015 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:46:39,016 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:39,017 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:40,742 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:40,744 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:46:40,748 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 17:46:40,775 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:46:40,778 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:47:07,514 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:47:07,529 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:47:07,540 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:47:07,542 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:07,542 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:08,082 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:47:08,400 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:08,402 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:08,402 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:08,403 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:08,403 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:47:08,404 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:08,405 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,582 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:09,584 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,584 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:09,585 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,586 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:47:09,587 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,588 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,980 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:09,982 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,983 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:09,983 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,984 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:47:09,986 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:09,987 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,135 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:11,137 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,138 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:11,138 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,139 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:47:11,140 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,141 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,533 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:11,535 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,535 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:11,536 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,537 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:47:11,539 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:11,540 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:12,745 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:12,746 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:12,747 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:12,747 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:12,748 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:47:12,749 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:12,750 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:13,181 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:13,183 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:13,183 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:13,184 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:13,185 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:47:13,187 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:13,188 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,309 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:14,313 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,313 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:14,313 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,314 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:47:14,315 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,316 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,821 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:47:14,823 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,824 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:47:14,829 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:14,831 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 17:47:14,939 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:47:14,940 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:47:58,809 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:47:58,824 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:47:58,833 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:47:58,835 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:58,835 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:47:59,403 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:48:00,624 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:00,624 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:00,624 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:00,625 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:48:00,626 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:00,627 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:01,484 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 'NoneType' object has no attribute 'upper'
+2025-03-16 17:48:01,487 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:01,487 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:48:01,488 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:01,489 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:48:01,491 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:01,492 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:02,944 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:02,945 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:02,945 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:02,946 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:48:02,947 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:02,948 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:03,978 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:03,979 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:03,980 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:03,980 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:48:03,982 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:03,983 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:05,797 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:05,798 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:05,798 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:05,799 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:48:05,800 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:05,800 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:07,533 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:07,536 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:07,536 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:07,537 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:48:07,538 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:07,539 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:09,450 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:09,451 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:09,451 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:09,451 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:48:09,453 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:09,453 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:11,099 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:11,100 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:11,100 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:11,100 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:48:11,103 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:11,104 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:12,773 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:12,774 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:48:12,775 - hcc_pipeline.core.evaluation - ERROR - STATE_TRACKER:HCC evaluation failed: 'Condition' object has no attribute 'get'
+2025-03-16 17:48:12,777 - root - CRITICAL - STATE_TRACKER:Critical pipeline failure: Object of type Condition is not JSON serializable
+2025-03-16 17:48:12,874 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:48:12,875 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:49:29,979 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:49:29,983 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:49:30,001 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:49:30,003 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:30,003 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:30,517 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:49:32,516 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:32,518 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,518 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:32,519 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,520 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:49:32,522 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,523 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,897 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:32,899 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,899 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:32,900 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,901 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:49:32,903 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:32,903 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,213 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:34,214 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,214 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:34,214 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,215 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:49:34,215 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,216 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,672 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:34,674 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,674 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:34,675 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,676 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:49:34,677 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:34,678 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:35,924 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:35,925 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:35,926 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:35,926 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:35,927 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:49:35,930 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:35,931 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:36,522 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:36,525 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:36,526 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:36,526 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:36,527 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:49:36,529 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:36,529 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:37,804 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:37,805 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:37,806 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:37,806 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:37,807 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:49:37,808 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:37,809 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:38,286 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:38,287 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:38,287 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:38,287 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:38,287 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:49:38,288 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:38,288 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:39,476 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Extraction error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-16 17:49:39,477 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:39,477 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 17:49:39,478 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:49:39,479 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 17:49:39,657 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:49:39,658 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:50:04,650 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:50:04,665 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:50:04,674 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:50:04,676 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:04,676 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:05,221 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:50:07,956 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:07,957 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:07,958 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:50:07,960 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:07,960 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:08,801 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:08,802 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:08,803 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:50:08,804 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:08,805 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:10,514 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:10,515 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:10,516 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:50:10,518 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:10,518 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:11,614 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:11,616 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:11,617 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:50:11,618 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:11,619 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:13,688 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:13,689 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:13,690 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:50:13,692 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:13,693 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:15,634 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:15,635 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:15,636 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:50:15,638 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:15,639 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:17,481 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:17,482 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:17,483 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:50:17,485 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:17,486 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:19,115 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:19,117 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:19,117 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:50:19,121 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:19,121 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:20,960 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:20,962 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:50:20,966 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 17:50:21,211 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:50:21,213 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:51:40,700 - langsmith.utils - DEBUG - STATE_TRACKER:LangSmith tracing is not enabled, returning original function.
+2025-03-16 17:51:40,713 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 17:51:40,721 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 17:51:40,723 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:40,723 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:41,281 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 17:51:42,469 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:42,472 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:42,473 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 17:51:42,483 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:42,483 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:43,346 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:43,350 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:43,351 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 17:51:43,363 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:43,365 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:44,559 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:44,560 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:44,561 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 17:51:44,562 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:44,563 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:45,833 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:45,835 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:45,835 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 17:51:45,837 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:45,838 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:47,518 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:47,519 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:47,520 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 17:51:47,522 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:47,522 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:49,452 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:49,453 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:49,454 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 17:51:49,457 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:49,457 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:51,119 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:51,121 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:51,121 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 17:51:51,123 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:51,124 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:52,744 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:52,745 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:52,746 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 17:51:52,749 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:52,749 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:54,392 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:54,394 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 17:51:54,397 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 17:51:54,500 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 17:51:54,502 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:16:21,758 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:16:21,758 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:16:21,839 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 18:16:21,845 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:21,847 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:22,357 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:16:22,493 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:16:25,575 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:25,582 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:25,584 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 18:16:25,593 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:25,598 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:26,149 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (2): api.smith.langchain.com:443
+2025-03-16 18:16:27,779 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:27,783 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:27,786 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 18:16:27,796 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:27,799 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:28,250 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:29,464 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:29,469 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:29,471 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 18:16:29,479 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:29,483 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:29,529 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:29,570 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:30,630 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:30,634 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:30,636 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 18:16:30,642 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:30,646 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:30,878 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:32,136 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:32,452 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:32,456 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:32,459 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 18:16:32,469 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:32,473 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:33,815 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:34,132 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:34,138 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:34,140 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 18:16:34,148 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:34,151 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:35,463 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:35,979 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:35,985 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:35,987 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 18:16:35,998 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:36,001 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:37,486 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:37,901 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:37,906 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:37,909 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 18:16:37,919 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:37,923 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:39,321 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:39,791 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:39,798 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:16:39,803 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 18:16:40,746 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:16:40,747 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:16:40,749 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:16:40,750 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:16:40,750 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session

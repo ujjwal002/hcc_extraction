@@ -262,7 +262,7 @@ version = "8.1.8"
 description = "Composable command line interface toolkit"
 optional = false
 python-versions = ">=3.7"
-groups = ["main", "dev"]
+groups = ["main"]
 files = [
     {file = "click-8.1.8-py3-none-any.whl", hash = "sha256:63c132bbbed01578a06712a2d1f497bb62d9c1c0d329b7903a866228027263b2"},
     {file = "click-8.1.8.tar.gz", hash = "sha256:ed53c9d8990d83c2a27deae68e4ee337473f6330c040a31d4225c9574d16096a"},
@@ -282,7 +282,7 @@ files = [
     {file = "colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"},
     {file = "colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44"},
 ]
-markers = {main = "platform_system == \"Windows\"", dev = "platform_system == \"Windows\" or sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
+markers = {main = "platform_system == \"Windows\"", dev = "sys_platform == \"win32\"", test = "sys_platform == \"win32\""}
 
 [[package]]
 name = "cryptography"
@@ -1031,7 +1031,7 @@ version = "0.1.77"
 description = "CLI for interacting with LangGraph API"
 optional = false
 python-versions = "<4.0.0,>=3.9.0"
-groups = ["main", "dev"]
+groups = ["main"]
 files = [
     {file = "langgraph_cli-0.1.77-py3-none-any.whl", hash = "sha256:5a4ccebba8e0e0a3528c5a80988bba3e2b1857f3c1bb58082cfcb082c7ba03ae"},
     {file = "langgraph_cli-0.1.77.tar.gz", hash = "sha256:c0aee7d20245c1c401eb159fee82a20a557d7cdcce25c5de5fa53db877be1b79"},
@@ -1039,6 +1039,8 @@ files = [
 
 [package.dependencies]
 click = ">=8.1.7,<9.0.0"
+langgraph-api = {version = ">=0.0.27,<0.1.0", optional = true, markers = "python_version >= \"3.11\" and python_version < \"4.0\" and extra == \"inmem\""}
+python-dotenv = {version = ">=0.8.0", optional = true, markers = "extra == \"inmem\""}
 
 [package.extras]
 inmem = ["langgraph-api (>=0.0.27,<0.1.0) ; python_version >= \"3.11\" and python_version < \"4.0\"", "python-dotenv (>=0.8.0)"]
@@ -2500,4 +2502,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11.0,<4.0"
-content-hash = "5f9a1e6cf4ce60dbd60bc4ff60a58aa82845cfbe3f915645a1e848ea423825c0"
+content-hash = "b31be72fa733e74ba95ce57a97d58376645d9209e70f598137d3951a9ef9523f"
