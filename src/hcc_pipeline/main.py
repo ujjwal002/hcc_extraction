@@ -8,6 +8,7 @@ from .utils import configure_logging, load_config, read_input_files, save_output
 from .core import extraction, evaluation
 from .workflows.hcc_workflow import create_hcc_workflow, PipelineState 
 import google.generativeai as genai
+
 import logging
 
 logger = logging.getLogger(__name__)
@@ -15,7 +16,7 @@ logger = logging.getLogger(__name__)
 load_dotenv()
 client = Client(
     api_key=os.getenv("LANGSMITH_API_KEY"),
-    # project_name=os.getenv("LANGSMITH_PROJECT", "hcc-pipeline")
+    project_name=os.getenv("LANGSMITH_PROJECT", "hcc-pipeline")
 )
 
 def initialize_components(config: Dict[str, Any]):
