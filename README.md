@@ -34,6 +34,11 @@ poetry install
    ```bash
    poetry run uvicorn hcc_pipeline.api.app:app --reload
    ```
+## Debugging & Development
+
+1. **Install dev tools**:
+```bash
+poetry install --with dev
 
 3. **Run the main pipeline**: **run this to see in local**
    ```bash
