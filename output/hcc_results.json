@@ -63,10 +63,6 @@
       {
         "condition": "Obstructive sleep apnea (adult)",
         "code": "G4733"
-      },
-      {
-        "condition": "Hypertension",
-        "code": ""
       }
     ],
     "hcc_relevant": [
@@ -89,11 +85,11 @@
         "code": "I10"
       },
       {
-        "condition": "Chronic Obstructive Pulmonary Disease",
+        "condition": "Chronic obstructive pulmonary disease",
         "code": "J44"
       },
       {
-        "condition": "Major Depressive Disorder",
+        "condition": "Major depressive disorder",
         "code": "F32"
       }
     ],
@@ -184,7 +180,7 @@
         "code": "N184"
       },
       {
-        "condition": "Morbid obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
@@ -206,7 +202,7 @@
         "code": "N184"
       },
       {
-        "condition": "Morbid obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
@@ -216,7 +212,7 @@
   "pn_3": {
     "extracted_conditions": [
       {
-        "condition": "Gastroesophageal reflux disease without esophagitis",
+        "condition": "Gastroesophageal reflux disease",
         "code": "K219"
       },
       {
@@ -224,23 +220,23 @@
         "code": "E1165"
       },
       {
-        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "condition": "Chronic obstructive pulmonary disease",
         "code": "J449"
       },
       {
-        "condition": "Essential (primary) hypertension",
+        "condition": "Essential hypertension",
         "code": "I10"
       },
       {
-        "condition": "Chronic systolic (congestive) heart failure",
+        "condition": "Chronic systolic heart failure",
         "code": "I5022"
       },
       {
-        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "condition": "Chronic kidney disease, stage 4",
         "code": "N184"
       },
       {
-        "condition": "Morbid (severe) obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
@@ -250,19 +246,19 @@
         "code": "E1165"
       },
       {
-        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "condition": "Chronic obstructive pulmonary disease",
         "code": "J449"
       },
       {
-        "condition": "Chronic systolic (congestive) heart failure",
+        "condition": "Chronic systolic heart failure",
         "code": "I5022"
       },
       {
-        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "condition": "Chronic kidney disease, stage 4",
         "code": "N184"
       },
       {
-        "condition": "Morbid (severe) obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
@@ -328,7 +324,7 @@
   "pn_5": {
     "extracted_conditions": [
       {
-        "condition": "Gastroesophageal reflux disease without esophagitis",
+        "condition": "Gastroesophageal reflux disease",
         "code": "K219"
       },
       {
@@ -336,23 +332,23 @@
         "code": "E1165"
       },
       {
-        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "condition": "Chronic obstructive pulmonary disease",
         "code": "J449"
       },
       {
-        "condition": "Essential (primary) hypertension",
+        "condition": "Essential hypertension",
         "code": "I10"
       },
       {
-        "condition": "Chronic systolic (congestive) heart failure",
+        "condition": "Chronic systolic heart failure",
         "code": "I5022"
       },
       {
-        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "condition": "Chronic kidney disease, stage 4",
         "code": "N184"
       },
       {
-        "condition": "Morbid (severe) obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
@@ -362,19 +358,19 @@
         "code": "E1165"
       },
       {
-        "condition": "Chronic obstructive pulmonary disease, unspecified",
+        "condition": "Chronic obstructive pulmonary disease",
         "code": "J449"
       },
       {
-        "condition": "Chronic systolic (congestive) heart failure",
+        "condition": "Chronic systolic heart failure",
         "code": "I5022"
       },
       {
-        "condition": "Chronic kidney disease, stage 4 (severe)",
+        "condition": "Chronic kidney disease, stage 4",
         "code": "N184"
       },
       {
-        "condition": "Morbid (severe) obesity due to excess calories",
+        "condition": "Morbid obesity",
         "code": "E6601"
       }
     ],
