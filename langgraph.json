@@ -1,19 +1,27 @@
 {
-   "graphs": {
-    "hcc_workflow": "hcc_pipeline.workflows.hcc_workflow:create_hcc_workflow"
+  "graphs": {
+    "hcc_workflow": "hcc_pipeline.workflows.hcc_workflow:run_hcc_workflow"
   },
-    "dependencies": [
-      "src.workflows",
-      "src.core",
-      "src.utils"
-    ],
-    "test_inputs": {
+  "dependencies": [
+    "hcc_pipeline.workflows",
+    "hcc_pipeline.core",
+    "hcc_pipeline.utils"
+  ],
+  "test_inputs": {
     "default": {
       "note_text": "Assessment/Plan:\n1. Diabetes (E11.9)\n2. Hypertension (I10)",
-      "hcc_codes": ["E119", "I10"]
+      "hcc_codes": ["E119", "I10"],
+      "conditions": [],
+      "hcc_relevant": [],
+      "errors": [],
+      "warnings": []
     }
   },
-    "host": "0.0.0.0",
-    "port": 7860,
-    "verbose": true
-  }
+  "environment": {
+    "GEMINI_API_KEY": "AIzaSyB6-olSp5r5EbsWR5vEsK0OnVycQcC1yI0",
+    "LANGSMITH_API_KEY": "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"
+  },
+  "host": "0.0.0.0",
+  "port": 7860,
+  "verbose": true
+}
