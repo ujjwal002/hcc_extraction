@@ -22,6 +22,28 @@ The **HCC Documentation Automation Pipeline** automates the extraction and valid
 - **Poetry** for dependency management and virtual environment handling
 - **Docker** (optional, for containerized deployment)
 
+## Docker Setup
+
+### Prerequisites
+- Docker installed
+- Docker Compose (optional)
+
+### Quick Start
+```bash
+# Build the image
+docker build -t hcc-pipeline .
+
+# Run the container with volume mounts
+docker run -it --rm \
+  -v $(pwd)/data:/app/data \
+  -v $(pwd)/output:/app/output \
+  -e GEMINI_API_KEY=$GEMINI_API_KEY \
+  hcc-pipeline
+
+
+
+
+
 ### Installation and Local Development
 
 # Install Poetry if not already installed
@@ -51,6 +73,8 @@ poetry install --with dev
    ```
 
 ---
+
+
 
 ### Project Structure
 
