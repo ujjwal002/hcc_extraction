@@ -1665,3 +1665,241 @@ conditions.3.code
 2025-03-16 18:16:40,749 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
 2025-03-16 18:16:40,750 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
 2025-03-16 18:16:40,750 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:46:56,610 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:46:56,610 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:46:56,668 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 18:46:56,675 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,677 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,678 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,679 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,679 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,681 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,682 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 18:46:56,687 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,689 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,689 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,690 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,690 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,693 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,694 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 18:46:56,699 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,701 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,701 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,702 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,703 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,705 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,706 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 18:46:56,710 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,712 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,712 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,714 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,714 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,716 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,717 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 18:46:56,721 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,723 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,723 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,725 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,725 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,727 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,728 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 18:46:56,733 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,735 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,735 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,737 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,737 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,739 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,740 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 18:46:56,744 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,747 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,747 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,749 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,749 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,751 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,752 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 18:46:56,756 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,758 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,758 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,759 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,759 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,762 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,764 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 18:46:56,768 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,770 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,770 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"'
+2025-03-16 18:46:56,772 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,772 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:46:56,774 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:46:56,775 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 18:46:57,067 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:46:57,068 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:46:58,463 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:46:59,809 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:47:01,492 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:47:01,492 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:47:01,493 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:47:01,493 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:47:01,493 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:05,553 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:48:05,554 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:48:05,610 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 18:48:05,616 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,619 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,619 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: """Patient
+Name        Adam2 (66yo, M) ID# 2222        Appt. Date/Time        09/25/2024 03:00PM
+DOB...
+2025-03-16 18:48:05,620 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,620 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,622 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,623 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 18:48:05,629 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,631 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,631 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+
+Name: ANDERSON, AMELIA (49yo, F)
+ID#: 5839
+Appt. Date/Time: 03/20/2025 09:30AM
+DOB: 11/17/...
+2025-03-16 18:48:05,632 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,632 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,634 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,635 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 18:48:05,640 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,642 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,642 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+
+Name: HARRIS, LUCAS (43yo, M)
+ID#: 7912
+Appt. Date/Time: 02/15/2025 01:00PM
+DOB: 09/03/198...
+2025-03-16 18:48:05,643 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,643 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,645 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,647 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 18:48:05,651 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,654 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,654 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: """Patient
+Name        Adam1 (66yo, M) ID# 2222        Appt. Date/Time        09/25/2024 03:00PM
+DOB...
+2025-03-16 18:48:05,655 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,655 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,658 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,659 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 18:48:05,663 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,666 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,666 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+Name ROOB, NATHANIAL (84yo, M) ID# 2866 Appt. Date/Time 07/25/2024 03:00PM
+DOB 06/17/1940 S...
+2025-03-16 18:48:05,667 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,667 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,669 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,670 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 18:48:05,675 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,677 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,677 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+Name ROOB, NATHANIAL (84yo, M) ID# 2866 Appt. Date/Time 07/25/2024 03:00PM
+DOB 06/17/1940 S...
+2025-03-16 18:48:05,678 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,678 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,681 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,682 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 18:48:05,686 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,689 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,689 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+Name ROOB, NATHANIAL (84yo, M) ID# 2866 Appt. Date/Time 07/25/2024 03:00PM
+DOB 06/17/1940 S...
+2025-03-16 18:48:05,690 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,690 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,692 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,693 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 18:48:05,698 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,700 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,700 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+Name ROOB, NATHANIAL (84yo, M) ID# 2866 Appt. Date/Time 07/25/2024 03:00PM
+DOB 06/17/1940 S...
+2025-03-16 18:48:05,701 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,701 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,703 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,704 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 18:48:05,708 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,711 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,711 - hcc_pipeline.core.extraction - ERROR - STATE_TRACKER:Unexpected error during extraction: '"condition"' - Text: "Patient
+Name ROOB, NATHANIAL (84yo, M) ID# 2866 Appt. Date/Time 07/25/2024 03:00PM
+DOB 06/17/1940 S...
+2025-03-16 18:48:05,712 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,712 - hcc_pipeline.workflows.hcc_workflow - WARNING - STATE_TRACKER:No conditions extracted from note
+2025-03-16 18:48:05,715 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:05,717 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 18:48:05,940 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:48:05,940 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:48:07,213 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:08,765 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:09,437 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:09,438 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:09,439 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:09,439 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:09,439 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:21,143 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:48:21,143 - urllib3.connectionpool - DEBUG - STATE_TRACKER:Starting new HTTPS connection (1): api.smith.langchain.com:443
+2025-03-16 18:48:21,202 - __main__ - INFO - STATE_TRACKER:Processing note: pn_7
+2025-03-16 18:48:21,208 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:21,211 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:21,524 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:48:21,528 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "GET /info HTTP/1.1" 200 672
+2025-03-16 18:48:22,226 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:24,235 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:24,242 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:24,244 - __main__ - INFO - STATE_TRACKER:Processing note: pn_9
+2025-03-16 18:48:24,254 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:24,257 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:25,065 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:25,068 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:25,071 - __main__ - INFO - STATE_TRACKER:Processing note: pn_8
+2025-03-16 18:48:25,076 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:25,079 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:25,357 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:26,381 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:26,663 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:26,669 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:26,671 - __main__ - INFO - STATE_TRACKER:Processing note: pn_6
+2025-03-16 18:48:26,680 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:26,684 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:27,719 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:27,762 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:27,766 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:27,769 - __main__ - INFO - STATE_TRACKER:Processing note: pn_1
+2025-03-16 18:48:27,777 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:27,781 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:28,829 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:29,540 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:29,546 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:29,549 - __main__ - INFO - STATE_TRACKER:Processing note: pn_4
+2025-03-16 18:48:29,558 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:29,562 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:30,601 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:31,345 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:31,351 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:31,354 - __main__ - INFO - STATE_TRACKER:Processing note: pn_3
+2025-03-16 18:48:31,364 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:31,367 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:32,422 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:32,973 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:32,975 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:32,977 - __main__ - INFO - STATE_TRACKER:Processing note: pn_2
+2025-03-16 18:48:32,981 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:32,984 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:34,019 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:34,735 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:34,741 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:34,743 - __main__ - INFO - STATE_TRACKER:Processing note: pn_5
+2025-03-16 18:48:34,754 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validating input state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:34,757 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Extract node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:35,902 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:36,281 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Validation node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:36,287 - hcc_pipeline.workflows.hcc_workflow - DEBUG - STATE_TRACKER:Evaluate node received state: dict_keys(['note_text', 'hcc_codes', 'conditions', 'hcc_relevant'])
+2025-03-16 18:48:36,291 - root - INFO - STATE_TRACKER:Pipeline completed successfully
+2025-03-16 18:48:36,823 - urllib3.connectionpool - DEBUG - STATE_TRACKER:https://api.smith.langchain.com:443 "POST /runs/multipart HTTP/1.1" 202 34
+2025-03-16 18:48:36,825 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:36,825 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:36,826 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session
+2025-03-16 18:48:36,826 - langsmith.client - DEBUG - STATE_TRACKER:Closing Client.session

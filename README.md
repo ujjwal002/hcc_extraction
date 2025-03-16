@@ -33,15 +33,12 @@ The **HCC Documentation Automation Pipeline** automates the extraction and valid
 # Build the image
 docker build -t hcc-pipeline .
 
-# Run the container with volume mounts
+# Run the container with volume mounts with env file
 docker run -it --rm \
+  --env-file .docker.env \
   -v $(pwd)/data:/app/data \
   -v $(pwd)/output:/app/output \
-  -e GEMINI_API_KEY=$GEMINI_API_KEY \
   hcc-pipeline
-
-
-
 
 
 ### Installation and Local Development
