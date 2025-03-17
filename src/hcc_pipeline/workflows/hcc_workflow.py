@@ -1,10 +1,22 @@
-# hcc_pipeline/workflows/hcc_workflow.py
 from typing import TypedDict, Set, List, Dict, Any
 from langgraph.graph import StateGraph, END
 from ..core import extraction, evaluation
 import logging
+import os
+from dotenv import load_dotenv
+import google.generativeai as genai
+import time
+
 
 logger = logging.getLogger(__name__)
+
+load_dotenv()
+api_key = os.getenv("GEMINI_API_KEY")
+if not api_key:
+    logger.critical("GEMINI_API_KEY not found in environment variables")
+    raise ValueError("GEMINI_API_KEY is required for Google Generative AI")
+logger.info(f"Configuring Google API with key: {api_key[:4]}...")
+genai.configure(api_key=api_key)
 
 class PipelineState(TypedDict):
     note_text: str
@@ -36,6 +48,8 @@ def create_hcc_workflow():
 
     def extract_node(state: PipelineState) -> Dict[str, Any]:
         logger.debug("Extract node received state: %s", state)
+        time.sleep(1)  
+
         try:
             if not state.get("note_text"):
                 raise ValueError("Cannot extract conditions without note_text")
@@ -126,14 +140,14 @@ def run_hcc_workflow(state: Dict[str, Any] = None) -> Dict[str, Any]:
     logger.info(f"Workflow result: {result}")
     return result
 
-if __name__ == "__main__":
-    test_state = {
-        "note_text": "Assessment/Plan:\n1. Diabetes (E11.9)\n2. Hypertension (I10)",
-        "hcc_codes": {"E119", "I10"},
-        "conditions": [],
-        "hcc_relevant": [],
-        "errors": [],
-        "warnings": []
-    }
-    result = run_hcc_workflow(test_state)
-    print("Workflow result:", result)
+# if __name__ == "__main__":
+#     test_state = {
+#         "note_text": "Assessment/Plan:\n1. Diabetes (E11.9)\n2. Hypertension (I10)",
+#         "hcc_codes": {"E119", "I10"},
+#         "conditions": [],
+#         "hcc_relevant": [],
+#         "errors": [],
+#         "warnings": []
+#     }
+#     result = run_hcc_workflow(test_state)
+#     print("Workflow result:", result)

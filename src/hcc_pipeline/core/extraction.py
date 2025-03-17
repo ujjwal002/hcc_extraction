@@ -1,4 +1,3 @@
-# hcc_pipeline/core/extraction.py
 import json
 import re
 import logging
@@ -6,6 +5,7 @@ from typing import List, Dict
 from pydantic import BaseModel, Field
 from langchain.prompts import PromptTemplate
 import google.generativeai as genai
+import time
 
 logger = logging.getLogger(__name__)
 
@@ -29,8 +29,8 @@ CONDITION_EXTRACTION_PROMPT = PromptTemplate(
     """
 )
 
-def extract_conditions(text: str) -> List[Dict[str, str]]:
-    """Extract conditions using Gemini API with enhanced error handling"""
+def extract_conditions(text: str, max_retries: int = 3) -> List[Dict[str, str]]:
+    """Extract conditions using Gemini API with retry logic"""
     try:
         assessment_plan = re.search(
             r'Assessment\s*[\/]\s*Plan\s*(.*?)(\n\w+:|$)',
@@ -43,10 +43,25 @@ def extract_conditions(text: str) -> List[Dict[str, str]]:
             
         model = genai.GenerativeModel('gemini-1.5-flash')
         prompt = CONDITION_EXTRACTION_PROMPT.format(text=assessment_plan.group(1)[:5000])
-        response = model.generate_content(prompt)
-        json_str = response.text.strip().replace('```json', '').replace('```', '')
-        conditions_raw = json.loads(json_str)
         
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(prompt)
+                json_str = response.text.strip().replace('```json', '').replace('```', '')
+                conditions_raw = json.loads(json_str)
+                break  
+            except Exception as e:
+                logger.error(f"API call failed: {type(e).__name__} - {str(e)}")
+                if "429" in str(e).lower(): 
+                    if attempt < max_retries - 1:
+                        delay = 2 ** attempt  
+                        logger.warning(f"Quota exceeded, retrying in {delay}s (attempt {attempt + 1}/{max_retries})")
+                        time.sleep(delay)
+                        continue
+                    logger.error(f"Max retries reached: {str(e)}")
+                    return []
+                raise 
+
         conditions = []
         for cond in conditions_raw:
             condition_name = cond.get("condition") or ""
