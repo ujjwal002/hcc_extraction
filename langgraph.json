@@ -21,7 +21,7 @@
     }
   },
   "environment": {
-    "ANTHROPIC_API_KEY": "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",
+    "ANTHROPIC_API_KEY": "",
     "LANGSMITH_API_KEY": "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"
   },
   "host": "0.0.0.0",
