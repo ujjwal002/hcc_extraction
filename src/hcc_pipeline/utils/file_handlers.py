@@ -7,7 +7,7 @@ def load_config() -> Dict[str, Any]:
     return {
         "input_dir": os.getenv("INPUT_DIR", "data/progress_notes"),
         "output_dir": os.getenv("OUTPUT_DIR", "data/output"),
-        "hcc_csv_path": os.getenv("HCC_CSV_PATH", "data/HCC_relevant_codes.csv")  # Match your file
+        "hcc_csv_path": os.getenv("HCC_CSV_PATH", "data/HCC_relevant_codes.csv") 
     }
 
 def read_input_files(input_dir: str) -> Dict[str, str]:

@@ -13,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 logging.basicConfig(level=logging.DEBUG, format='%(levelname)s:%(name)s:%(message)s')
 
-# Load API key
 load_dotenv()
 api_key = os.getenv("ANTHROPIC_API_KEY")
 if not api_key:
@@ -21,7 +20,6 @@ if not api_key:
     raise ValueError("ANTHROPIC_API_KEY is required")
 logger.info(f"Using API key: {api_key[:4]}...")
 
-# Initialize Anthropic client
 client = anthropic.Anthropic(api_key=api_key)
 
 class Condition(BaseModel):
@@ -60,7 +58,7 @@ def extract_conditions(text: str, max_retries: int = 3) -> List[dict]:
             try:
                 logger.info(f"Calling Claude API, attempt {attempt + 1}/{max_retries}")
                 response = client.messages.create(
-                    model="claude-3-5-sonnet-20241022",  # Use a suitable Claude model
+                    model="claude-3-5-sonnet-20241022", 
                     max_tokens=1000,
                     messages=[
                         {"role": "user", "content": prompt}

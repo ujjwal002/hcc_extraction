@@ -5,14 +5,12 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-# Default path to HCC codes file
 DEFAULT_HCC_CODES_PATH = Path(__file__).parent.parent / "data" / "HCC_relevant_codes.csv"
 
 def load_hcc_codes(csv_path: str = None) -> Set[str]:
     """Load HCC codes from CSV file"""
     try:
         if not csv_path:
-            # Default to a relative path if none provided
             csv_path = "./data/HCC_relevant_codes.csv"
             
         if not Path(csv_path).exists():
@@ -29,7 +27,7 @@ def load_hcc_codes(csv_path: str = None) -> Set[str]:
 def evaluate_hcc(conditions: List[Dict], hcc_codes: Set[str]) -> List[Dict]:
     """Evaluate HCC-relevant conditions"""
     try:
-        if not hcc_codes:  # Load codes if not provided
+        if not hcc_codes: 
             hcc_codes = load_hcc_codes()
         relevant = [
             cond for cond in conditions

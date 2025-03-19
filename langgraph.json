@@ -1,6 +1,6 @@
 {
   "graphs": {
-    "hcc_workflow": "hcc_pipeline.workflows.hcc_workflow:run_hcc_workflow"
+    "hcc_workflow": "hcc_pipeline.workflows.hcc_workflow:create_hcc_workflow"
   },
   "dependencies": [
     "hcc_pipeline.workflows",

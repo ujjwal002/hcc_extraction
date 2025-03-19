@@ -1,4 +1,3 @@
-# hcc_pipeline/main.py
 import os
 import logging
 from dotenv import load_dotenv
@@ -73,7 +72,6 @@ def process_notes(workflow, config: Dict[str, Any]) -> Dict[str, Any]:
 def main(config: Dict[str, Any] = None) -> Dict[str, Any]:
     configure_logging()
     try:
-        # Use provided config or fallback to default
         config = config or {
             "input_dir": "data/progress_notes",
             "output_dir": "data/output",

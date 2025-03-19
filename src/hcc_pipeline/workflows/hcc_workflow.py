@@ -3,12 +3,11 @@ from typing import TypedDict, Set, List, Dict, Any
 from langgraph.graph import StateGraph, END
 from ..core import extraction
 from ..core import evaluation
-from ..utils.file_handlers import read_input_files  # Add this import
+from ..utils.file_handlers import read_input_files
 import logging
 import os
 from dotenv import load_dotenv
 import anthropic
-import time
 
 logger = logging.getLogger(__name__)
 
@@ -21,10 +20,10 @@ logger.info(f"Configuring Claude API with key: {api_key[:4]}...")
 client = anthropic.Anthropic(api_key=api_key)
 
 class PipelineState(TypedDict):
-    note_text: str
+    notes: List[Dict[str, str]]  
     hcc_codes: Set[str]
-    conditions: List[Dict]
-    hcc_relevant: List[Dict]
+    conditions: List[Dict[str, List[Dict]]]  
+    hcc_relevant: List[Dict[str, List[Dict]]] 
     errors: List[str]
     warnings: List[str]
 
@@ -33,30 +32,62 @@ def create_hcc_workflow():
     
     def validate_input_state(state: PipelineState) -> Dict[str, Any]:
         logger.info(f"Received state in validate_input: {state}")
-        if not state.get("note_text"):
-            error_msg = "Missing note_text in input state"
+        notes = state.get("notes", [])
+        
+        if not notes:
+            try:
+                file_notes = read_input_files("data/progress_notes")
+                if file_notes:
+                    notes = [{"filename": name, "content": content} for name, content in file_notes.items()]
+                    logger.info(f"Loaded {len(notes)} notes from data/progress_notes")
+                else:
+                    logger.warning("No notes found in data/progress_notes")
+            except Exception as e:
+                error_msg = f"Failed to load notes from files: {str(e)}"
+                logger.error(error_msg)
+                return {
+                    "errors": state.get("errors", []) + [error_msg],
+                    "warnings": state.get("warnings", []),
+                    "notes": [],
+                    "conditions": [],
+                    "hcc_relevant": [],
+                    "hcc_codes": state.get("hcc_codes", set())
+                }
+        
+        if not notes:
+            error_msg = "No notes provided and no files found"
             logger.error(error_msg)
             return {
                 "errors": state.get("errors", []) + [error_msg],
                 "warnings": state.get("warnings", []),
-                "note_text": state.get("note_text", ""),
-                "conditions": state.get("conditions", []),
-                "hcc_relevant": state.get("hcc_relevant", []),
+                "notes": [],
+                "conditions": [],
+                "hcc_relevant": [],
                 "hcc_codes": state.get("hcc_codes", set())
             }
-        logger.info("Input state validated successfully")
-        return {"warnings": state.get("warnings", []), "errors": state.get("errors", [])}
+        
+        logger.info(f"Validated {len(notes)} notes")
+        return {
+            "notes": notes,
+            "warnings": state.get("warnings", []),
+            "errors": state.get("errors", []),
+            "hcc_codes": state.get("hcc_codes", set()),
+            "conditions": [],
+            "hcc_relevant": []
+        }
 
     def extract_node(state: PipelineState) -> Dict[str, Any]:
         logger.debug("Extract node received state: %s", state)
-        time.sleep(1)
+        conditions_by_file = []
         try:
-            if not state.get("note_text"):
-                raise ValueError("Cannot extract conditions without note_text")
-            conditions = extraction.extract_conditions(state["note_text"]) or []
-            logger.info(f"Extracted {len(conditions)} conditions: {conditions}")
+            for note in state["notes"]:
+                filename = note["filename"]
+                content = note["content"]
+                conditions = extraction.extract_conditions(content) or []
+                conditions_by_file.append({filename: conditions})
+                logger.info(f"Extracted {len(conditions)} conditions from {filename}")
             return {
-                "conditions": conditions,
+                "conditions": conditions_by_file,
                 "warnings": state.get("warnings", []),
                 "errors": state.get("errors", [])
             }
@@ -72,10 +103,16 @@ def create_hcc_workflow():
         logger.debug("Validation node received state: %s", state)
         warnings = state.get("warnings", [])
         if not state.get("conditions"):
-            warnings.append("No conditions extracted from note")
-            logger.warning("No conditions extracted from note")
+            warnings.append("No conditions extracted from any note")
+            logger.warning("No conditions extracted from any note")
         else:
-            logger.info("Conditions validated: %s", state["conditions"])
+            for cond_dict in state["conditions"]:
+                for filename, conds in cond_dict.items():
+                    if not conds:
+                        warnings.append(f"No conditions extracted from {filename}")
+                        logger.warning(f"No conditions extracted from {filename}")
+                    else:
+                        logger.info(f"Validated conditions for {filename}: {conds}")
         return {"warnings": warnings, "errors": state.get("errors", [])}
 
     def evaluate_node(state: PipelineState) -> Dict[str, Any]:
@@ -83,14 +120,16 @@ def create_hcc_workflow():
         try:
             hcc_codes = state.get("hcc_codes", set())
             if not hcc_codes:
-                hcc_codes = evaluation.load_hcc_codes()
-            hcc_relevant = evaluation.evaluate_hcc(
-                state.get("conditions", []),
-                hcc_codes
-            )
-            logger.info(f"Found {len(hcc_relevant)} HCC-relevant conditions: {hcc_relevant}")
+                hcc_codes = evaluation.load_hcc_codes("data/HCC_relevant_codes.csv")
+                logger.info(f"Loaded {len(hcc_codes)} HCC codes from file")
+            hcc_relevant_by_file = []
+            for cond_dict in state.get("conditions", []):
+                for filename, conditions in cond_dict.items():
+                    hcc_relevant = evaluation.evaluate_hcc(conditions, hcc_codes)
+                    hcc_relevant_by_file.append({filename: hcc_relevant})
+                    logger.info(f"Found {len(hcc_relevant)} HCC-relevant conditions in {filename}")
             return {
-                "hcc_relevant": hcc_relevant,
+                "hcc_relevant": hcc_relevant_by_file,
                 "warnings": state.get("warnings", []),
                 "errors": state.get("errors", [])
             }
@@ -114,42 +153,3 @@ def create_hcc_workflow():
     builder.add_edge("evaluate", END)
     
     return builder.compile()
-
-def run_hcc_workflow(state: Dict[str, Any] = None) -> Dict[str, Any]:
-    logger.info(f"Raw input state received: {state}")
-    if not state:
-        logger.info("No input state provided, loading data from files")
-        # Load data like main.py does
-        hcc_codes = evaluation.load_hcc_codes("data/HCC_relevant_codes.csv")
-        notes = read_input_files("data/progress_notes")
-        if not notes:
-            return {"errors": ["No notes found in data/progress_notes"], "results": {}}
-        
-        results = {}
-        workflow = create_hcc_workflow()
-        for note_name, note_text in notes.items():
-            initial_state = {
-                "note_text": note_text,
-                "hcc_codes": hcc_codes,
-                "conditions": [],
-                "hcc_relevant": [],
-                "errors": [],
-                "warnings": []
-            }
-            result = workflow.invoke(initial_state)
-            results[note_name] = result
-        return {"results": results}
-    
-    initial_state = {
-        "note_text": state.get("note_text", ""),
-        "hcc_codes": set(state.get("hcc_codes", [])),
-        "conditions": state.get("conditions", []),
-        "hcc_relevant": state.get("hcc_relevant", []),
-        "errors": state.get("errors", []),
-        "warnings": state.get("warnings", [])
-    }
-    logger.info(f"Running workflow with initial state: {initial_state}")
-    workflow = create_hcc_workflow()
-    result = workflow.invoke(initial_state)
-    logger.info(f"Workflow result: {result}")
-    return result
