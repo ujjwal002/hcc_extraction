@@ -1,10 +1,38 @@
 {
   "pn_7": {
-    "extracted_conditions": [],
-    "hcc_relevant": [],
-    "warnings": [
-      "No conditions extracted from note"
+    "extracted_conditions": [
+      {
+        "condition": "Substance use disorder",
+        "code": "F1920"
+      },
+      {
+        "condition": "HLD",
+        "code": "E785"
+      },
+      {
+        "condition": "GERD",
+        "code": "K219"
+      },
+      {
+        "condition": "CAD",
+        "code": "I2510"
+      },
+      {
+        "condition": "IBD",
+        "code": "K5190"
+      }
     ],
+    "hcc_relevant": [
+      {
+        "condition": "Substance use disorder",
+        "code": "F1920"
+      },
+      {
+        "condition": "IBD",
+        "code": "K5190"
+      }
+    ],
+    "warnings": [],
     "errors": []
   },
   "pn_9": {
@@ -24,11 +52,35 @@
     "errors": []
   },
   "pn_6": {
-    "extracted_conditions": [],
-    "hcc_relevant": [],
-    "warnings": [
-      "No conditions extracted from note"
+    "extracted_conditions": [
+      {
+        "condition": "Diabetes",
+        "code": "E119"
+      },
+      {
+        "condition": "Hypertension",
+        "code": "I10"
+      },
+      {
+        "condition": "COPD",
+        "code": "J449"
+      },
+      {
+        "condition": "Major Depressive Disorder",
+        "code": "F329"
+      }
     ],
+    "hcc_relevant": [
+      {
+        "condition": "Diabetes",
+        "code": "E119"
+      },
+      {
+        "condition": "COPD",
+        "code": "J449"
+      }
+    ],
+    "warnings": [],
     "errors": []
   },
   "pn_1": {
